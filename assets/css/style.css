@@ -80,7 +80,7 @@ main{
 }
 
 footer{
-    background-color: black;
+    background-color: #7c5549;
     width: auto;
     display: flex;
     align-items: center;
@@ -90,4 +90,5 @@ footer{
 }
 footer p{
     margin-top: 15px;
+    color: white;
 }
