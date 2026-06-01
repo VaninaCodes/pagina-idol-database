@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Sniglet:wght@400;800&display=swap');
+
+body{
+    font-family: "Sniglet", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #7c5549;
+    background: radial-gradient(circle, #fff0d94d, white);
+    
+}
+header{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+    text-align: center;
+    color: #78A5CE;
+    padding: 10px;
+}
+h2{
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #DDA4B4;
+    margin-top: 10px;
+}
+input{
+    border: 2px solid #78A5CE !important;
+    border-radius: 8px !important;
+    margin-bottom: 10px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#seccionAgregar{
+    background-color: #DDA4B4;
+    color: white;
+    padding: 20px;
+    width: fit-content;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#seccionAgregar h2{
+    color: white;
+    font-size: 35px;
+}
+#seccionAgregar form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-agregar{
+    background-color: white;
+    width: fit-content;
+    margin-top: 15px;
+}
+.btn-agregar:hover{
+    background-color: #78A5CE;
+}
+.btn-ver{
+    background-color: #78A5CE;
+    margin-bottom: 20px;
+}
+.btn-ver:hover{
+    background-color: #7c5549;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    margin-top: 0px;
+}
+footer p{
+    margin-top: 15px;
+}
